@@ -1,0 +1,25 @@
+{
+  "name": "aoc-2021",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021 solutions",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmarks6767/aoc-2021.git"
+  },
+  "keywords": [
+    "AdventOfCode",
+    "JS",
+    "Javascript"
+  ],
+  "author": "River Marks",
+  "license": "MIT",
+  "homepage": "https://github.com/rmarks6767/aoc-2021#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
