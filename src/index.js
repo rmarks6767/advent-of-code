@@ -16,6 +16,7 @@ import day12 from './day-12/index.js';
 import day13 from './day-13/index.js';
 import day14 from './day-14/index.js';
 import day15 from './day-15/index.js';
+import day16 from './day-16/index.js';
 // <NEW_DAY_IMPORT>
 import generateDay from './helpers/generateDay.js';
 
@@ -40,6 +41,7 @@ const main = async () => {
 		case '13': console.log(PART === '1' ? await day13.part1() : await day13.part2()); break;
 		case '14': console.log(PART === '1' ? await day14.part1() : await day14.part2()); break;
 		case '15': console.log(PART === '1' ? await day15.part1() : await day15.part2()); break;
+		case '16': console.log(PART === '1' ? await day16.part1() : await day16.part2()); break;
 		// <NEW_DAY_CASE>
     case 'generateDay': generateDay(PART); break;
   }
